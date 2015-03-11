@@ -13,6 +13,9 @@
 		6E087FB41AB0090C0093113A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FB31AB0090C0093113A /* Images.xcassets */; };
 		6E087FB71AB0090C0093113A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FB51AB0090C0093113A /* LaunchScreen.xib */; };
 		6E087FC31AB0090C0093113A /* tableview_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E087FC21AB0090C0093113A /* tableview_SwiftTests.swift */; };
+		6E087FCF1AB0093B0093113A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FCC1AB0093B0093113A /* Default-568h@2x.png */; };
+		6E087FD01AB0093B0093113A /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FCD1AB0093B0093113A /* Default-667h@2x.png */; };
+		6E087FD11AB0093B0093113A /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FCE1AB0093B0093113A /* Default-736h@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		6E087FBC1AB0090C0093113A /* tableview-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableview-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E087FC11AB0090C0093113A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E087FC21AB0090C0093113A /* tableview_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableview_SwiftTests.swift; sourceTree = "<group>"; };
+		6E087FCC1AB0093B0093113A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6E087FCD1AB0093B0093113A /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		6E087FCE1AB0093B0093113A /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		6E087FAA1AB0090C0093113A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E087FCC1AB0093B0093113A /* Default-568h@2x.png */,
+				6E087FCD1AB0093B0093113A /* Default-667h@2x.png */,
+				6E087FCE1AB0093B0093113A /* Default-736h@3x.png */,
 				6E087FAB1AB0090C0093113A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E087FB21AB0090C0093113A /* Main.storyboard in Resources */,
+				6E087FCF1AB0093B0093113A /* Default-568h@2x.png in Resources */,
 				6E087FB71AB0090C0093113A /* LaunchScreen.xib in Resources */,
 				6E087FB41AB0090C0093113A /* Images.xcassets in Resources */,
+				6E087FD01AB0093B0093113A /* Default-667h@2x.png in Resources */,
+				6E087FD11AB0093B0093113A /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tableview-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tableview-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
