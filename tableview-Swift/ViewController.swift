@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
-
+    
     //変数宣言
     @IBOutlet var tableview: UITableView!
     
@@ -25,6 +25,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     /*配列の宣言*/
     var playerName = Array<String>()
     var playerImage = Array<UIImage>()
+    var playerNum = Array<Int>()
     //配列が来るよ、中身は<>これだよ。()で初期化
     
     
@@ -41,19 +42,22 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerImage.append(UIImage(named: "2.png")!)
         
         
+        
         /*
         playerName.append("まっすー")
         playerName.append("ますはら")
         playerName.append("だいすけ")
         */
-       
+        
         playerName = ["まっすー","だいすけ","ますはら"]
+        playerNum = [1,2,3]
         
         
+        NSLog("画像の番号 == %@",playerNum)
         NSLog("画像の配列 == %@ \n名前の配列 ==  %@", playerImage, playerName)
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -67,7 +71,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return playerImage.count
     }
     
-   
+    
     //行ごとになにるいれるのかここで設定
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         // Cellの.を取得する.
@@ -79,11 +83,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         cell.imageView!.image=playerImage[indexPath.row]
         
         return cell
-            }
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
-    NSLog("%d",indexPath.row)
     }
-
-
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
+        NSLog("%d",indexPath.row)
+    }
+    
+    
 }
 
