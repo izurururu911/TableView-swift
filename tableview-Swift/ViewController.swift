@@ -41,6 +41,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerImage.append(UIImage(named: "1.png")!)
         playerImage.append(UIImage(named: "2.png")!)
         playerImage.append(UIImage(named: "3.png")!)
+        playerImage.append(UIImage(named: "3.png")!)
+        playerImage.append(UIImage(named: "3.png")!)
         
         
         
@@ -50,8 +52,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerName.append("だいすけ")
         */
         
-        playerName = ["まっすー","だいすけ","ますはら","いづちん"]
-        playerNum = [1,2,3,4]
+        playerName = ["まっすー","だいすけ","ますはら","いづちん","あねたん","もんちゃん"]
+        playerNum = [1,2,3,4,5,6]
         
         
         NSLog("画像の番号 == %@",playerNum)
