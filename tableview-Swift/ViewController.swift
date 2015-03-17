@@ -43,6 +43,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerImage.append(UIImage(named: "3.png")!)
         playerImage.append(UIImage(named: "3.png")!)
         playerImage.append(UIImage(named: "3.png")!)
+        playerImage.append(UIImage(named: "0.png")!)
+        playerImage.append(UIImage(named: "1.png")!)
+        playerImage.append(UIImage(named: "2.png")!)
+        playerImage.append(UIImage(named: "3.png")!)
+        playerImage.append(UIImage(named: "3.png")!)
+        playerImage.append(UIImage(named: "3.png")!)
         
         
         
