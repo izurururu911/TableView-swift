@@ -60,7 +60,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerImage.append(UIImage(named: "2.png")!)
         playerImage.append(UIImage(named: "3.png")!)
         
-        
+        var label: UILabel!
+        var btn: UIButton!
+
     
         
         
@@ -101,11 +103,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         //""のなかはセルのID
         
         // Cellに値を設定する.
-        cell.textLabel!.text = "\(playerName[indexPath.row])"
+        cell.textLabel!.text = "I am \(playerName[indexPath.row])"
         cell.imageView!.image=playerImage[indexPath.row]
         //cell.label!.text="hogehoge"
         
-        return cell
+               return cell
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
         NSLog("%d",indexPath.row)

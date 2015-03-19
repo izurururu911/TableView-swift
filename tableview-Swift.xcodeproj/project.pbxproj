@@ -20,6 +20,9 @@
 		6E087FD61AB00ED80093113A /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FD31AB00ED80093113A /* 0.png */; };
 		6E087FD71AB00ED80093113A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E087FD41AB00ED80093113A /* 2.png */; };
 		6E08800D1AB3284F0093113A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E08800C1AB3284F0093113A /* 3.png */; };
+		6E08800F1ABB1E4C0093113A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E08800E1ABB1E4C0093113A /* AVFoundation.framework */; };
+		6E0880121ABB1EA00093113A /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0880101ABB1EA00093113A /* clap-button.png */; };
+		6E0880131ABB1EA00093113A /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6E0880111ABB1EA00093113A /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		6E087FD31AB00ED80093113A /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		6E087FD41AB00ED80093113A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		6E08800C1AB3284F0093113A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6E08800E1ABB1E4C0093113A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6E0880101ABB1EA00093113A /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		6E0880111ABB1EA00093113A /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E08800F1ABB1E4C0093113A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +80,7 @@
 		6E087F9E1AB0090C0093113A = {
 			isa = PBXGroup;
 			children = (
+				6E08800E1ABB1E4C0093113A /* AVFoundation.framework */,
 				6E087FA91AB0090C0093113A /* tableview-Swift */,
 				6E087FBF1AB0090C0093113A /* tableview-SwiftTests */,
 				6E087FA81AB0090C0093113A /* Products */,
@@ -91,6 +99,8 @@
 		6E087FA91AB0090C0093113A /* tableview-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				6E0880101ABB1EA00093113A /* clap-button.png */,
+				6E0880111ABB1EA00093113A /* clap.wav */,
 				6E087FD21AB00ED80093113A /* 1.png */,
 				6E087FD31AB00ED80093113A /* 0.png */,
 				6E087FD41AB00ED80093113A /* 2.png */,
@@ -214,7 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0880131ABB1EA00093113A /* clap.wav in Resources */,
 				6E087FD61AB00ED80093113A /* 0.png in Resources */,
+				6E0880121ABB1EA00093113A /* clap-button.png in Resources */,
 				6E087FB21AB0090C0093113A /* Main.storyboard in Resources */,
 				6E087FCF1AB0093B0093113A /* Default-568h@2x.png in Resources */,
 				6E087FB71AB0090C0093113A /* LaunchScreen.xib in Resources */,
