@@ -12,6 +12,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     //変数宣言
     @IBOutlet var tableview: UITableView!
+    @IBOutlet var label: UILabel!
+    
     
     /*いづちん流
     配列を作る。選手名鑑をイメージ
@@ -41,14 +43,17 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerImage.append(UIImage(named: "1.png")!)
         playerImage.append(UIImage(named: "2.png")!)
         playerImage.append(UIImage(named: "3.png")!)
-        playerImage.append(UIImage(named: "3.png")!)
+        playerImage.append(UIImage(named: "0.png")!)
+        playerImage.append(UIImage(named: "1.png")!)
+        playerImage.append(UIImage(named: "2.png")!)
         playerImage.append(UIImage(named: "3.png")!)
         playerImage.append(UIImage(named: "0.png")!)
         playerImage.append(UIImage(named: "1.png")!)
         playerImage.append(UIImage(named: "2.png")!)
         playerImage.append(UIImage(named: "3.png")!)
-        playerImage.append(UIImage(named: "3.png")!)
-        playerImage.append(UIImage(named: "3.png")!)
+        
+        
+    
         
         
         
@@ -58,8 +63,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         playerName.append("だいすけ")
         */
         
-        playerName = ["まっすー","だいすけ","ますはら","いづちん","あねたん","もんちゃん"]
-        playerNum = [1,2,3,4,5,6]
+        playerName = ["まっすー","だいすけ","ますはら","いづちん","まっすー","だいすけ","ますはら","いづちん","まっすー","だいすけ","ますはら","いづちん"]
+        playerNum = [1,2,3,4,5,6,7,8,9,10,11,12]
         
         
         NSLog("画像の番号 == %@",playerNum)
