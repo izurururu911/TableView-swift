@@ -11,8 +11,16 @@ import UIKit
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
     //変数宣言
+    var num :Int = 0
     @IBOutlet var tableview: UITableView!
     @IBOutlet var label: UILabel!
+    @IBOutlet var btn: UIButton!
+    
+    @IBAction func plus() {
+        num = num+1
+        label.text = String(num)
+
+    }
     
     
     /*いづちん流
@@ -95,6 +103,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         // Cellに値を設定する.
         cell.textLabel!.text = "\(playerName[indexPath.row])"
         cell.imageView!.image=playerImage[indexPath.row]
+        //cell.label!.text="hogehoge"
         
         return cell
     }
